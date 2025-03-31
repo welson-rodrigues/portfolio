@@ -6785,6 +6785,7 @@ button.bg-dark:focus {
   padding-top: 42.85714%;
 }
 
+
 .embed-responsive-16by9::before {
   padding-top: 56.25%;
 }
@@ -9926,6 +9927,11 @@ h6,
   border-radius: 60px;
 }
 
+.portfolio-img-container {
+    height: 200px; /* ou qualquer altura que desejar */
+    overflow: hidden;
+}
+
 .portfolio-item .portfolio-btn {
   position: absolute;
   width: 0;
@@ -9958,6 +9964,8 @@ h6,
   border-radius: 10px;
   background: #dddddd;
 }
+
+
 
 .testimonial-carousel .owl-dot.active {
   background: #0BCEAF;
